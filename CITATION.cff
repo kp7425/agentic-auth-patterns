@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Agentic AI Authentication Prototype"
+abstract: "Empirical validation prototype for authentication protocol composition in agentic AI systems, demonstrating OAuth 2.0, Token Exchange (RFC 8693), and DPoP (RFC 9449) integration."
+authors:
+  - family-names: "Bhushan"
+    given-names: "Badal"
+    email: "badalbhushan786@gmail.com"
+    affiliation: "Independent CyberSecurity Researcher"
+  - family-names: "Pappu"
+    given-names: "Karthik"
+    email: "karthikp.pappu@trojans.dsu.edu"
+    affiliation: "Dakota State University"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Mittal"
+    given-names: "Akashay"
+    email: "amittal18886@ucumberlands.edu"
+    affiliation: "University of the Cumberlands"
+version: 1.0.0
+date-released: 2025-01-24
+license: MIT
+repository-code: "https://gitlab.com/YOUR_USERNAME/agentic-auth-prototype"
+keywords:
+  - authentication
+  - agentic AI
+  - OAuth 2.0
+  - Token Exchange
+  - DPoP
+  - RFC 8693
+  - RFC 9449
+  - SPIFFE
+  - Keycloak

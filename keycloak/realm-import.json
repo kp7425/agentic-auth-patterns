@@ -1,0 +1,42 @@
+{
+  "realm": "agentic-demo",
+  "enabled": true,
+  "accessTokenLifespan": 300,
+  "clients": [
+    {
+      "clientId": "orchestrator",
+      "enabled": true,
+      "clientAuthenticatorType": "client-secret",
+      "secret": "orchestrator-secret",
+      "serviceAccountsEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": false,
+      "fullScopeAllowed": true,
+      "attributes": {
+        "oauth2.token.exchange.grant.enabled": "true"
+      }
+    },
+    {
+      "clientId": "internal-api",
+      "enabled": true,
+      "bearerOnly": false,
+      "publicClient": false,
+      "serviceAccountsEnabled": false,
+      "attributes": {
+        "oauth2.token.exchange.grant.enabled": "true"
+      }
+    }
+  ],
+  "users": [
+    {
+      "username": "test-user",
+      "enabled": true,
+      "credentials": [
+        {
+          "type": "password",
+          "value": "password"
+        }
+      ]
+    }
+  ]
+}
